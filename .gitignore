@@ -4,3 +4,4 @@
 /common-libs/spring-support/target/
 /redis-webservice/target/
 /englishcloud-backend/target/
+**/nb-configuration.xml
