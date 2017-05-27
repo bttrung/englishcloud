@@ -5,3 +5,4 @@
 /redis-webservice/target/
 /englishcloud-backend/target/
 **/nb-configuration.xml
+/englishcloud-ui/target/

@@ -15,5 +15,6 @@
         <module>common-libs</module>
         <module>common-services</module>
         <module>englishcloud-backend</module>
-    </modules>
+    <module>englishcloud-ui</module>
+  </modules>
 </project>
