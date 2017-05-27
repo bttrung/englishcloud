@@ -1,0 +1,107 @@
+.search-container {
+    font-family: sans-serif;
+    position: relative;
+    background: #03b4f2;
+    line-height: 2;
+    border-radius: 0px;
+    /*margin: 0 auto;*/
+    font-size: 180%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+/*.row-container{
+    background: yellow;
+}
+.center-container{
+    background: blueviolet;
+}*/
+
+.bootstrap-tagsinput {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    display: inline-block;
+    padding: 4px 6px;
+    color: #555;
+    vertical-align: middle;
+    border-radius: 4px;
+    max-width: 100%;
+    line-height: 22px;
+    cursor: text;
+}
+
+.search-textbox {
+    /*background-image: url('/css/searchicon.png');*/
+    /*background-image: url('/css/searchicon.png');
+      background-position: 10px 12px;
+      background-repeat: no-repeat;
+      width: 100%;
+      font-size: 16px;
+      padding: 12px 20px 12px 40px;
+      border: 1px solid #ddd;
+      margin-bottom: 12px;*/
+  
+    display: inline-block;
+    width: auto;
+    padding: 1px 15px;
+}
+
+.search-container .search-textbox .btn-success{
+    /*width: 100%;*/
+    /*line-height: 2;*/
+
+
+}
+
+.search-textbox {
+    width: 90%;
+    border: 0px solid #CCCCCC;
+    border-radius: 8px;
+    margin-right: 0%;
+    /*opacity: 0.9;*/
+    /*line-height: 2;*/
+}
+
+.search-textbox:focus {
+    /*        border: 2px solid #0097CF;*/
+    /*border: 2px solid darkgreen;*/
+
+    /*box-shadow: 0 0 5px rgba(81, 203, 238, 1);*/
+    /*padding: 3px 0px 3px 3px;*/
+    /*margin: 5px 1px 3px 0px;*/
+    /*border: 1px solid rgba(81, 203, 238, 1);*/
+    
+    /*opacity: 1;*/
+
+
+    /*box-shadow: inset 0 0 1em #03b4f2;*/
+}
+
+input:focus::-webkit-input-placeholder{
+    color: transparent!important;
+}
+
+.search-btn{
+    float: right;
+    width: 9.3%;
+    margin-left: 0.5%;
+    /*display: inline-block;*/
+}
+
+.btn-success{
+    line-height: 1.9;
+    align-content: center;
+}
+
+@media (min-width: 768px) {
+    .col-sm-8 {
+        /*width: 66.66666667%;*/
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+/*sd*/
+

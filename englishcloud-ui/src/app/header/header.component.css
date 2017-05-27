@@ -1,0 +1,65 @@
+
+/*Add a dark background color with a little bit see-through*/  
+.navbar {
+    margin-bottom: 0;
+    background-color: #08212b;
+    border: 0;
+    font-size: 16px !important;
+    /*letter-spacing: 4px;*/
+    opacity:0.9;
+    border-radius: 0px;
+}
+
+/*Add a gray color to all navbar links*/ 
+.navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+    font-family: RobotoCondensedBasic,'Roboto Condensed',Helvetica,sans-serif;
+    line-height: 2;
+    color: #fff;
+    text-transform: uppercase;
+    padding-right: 0;
+}
+
+.home-icon {
+    padding-left: 0;
+}
+
+.main-menu ul li a {
+    padding-left: 25px;
+    /*color: blue;*/
+    /*    padding-left: 0;
+        margin: 0;
+        background: yellow;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)*/
+}
+
+.account-menu{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*On hover, the links will turn white*/ 
+.navbar-nav li a:hover {
+    color: #00ffff !important;
+
+}
+
+
+/*
+ 
+
+
+
+
+
+
+ The active link 
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+*/

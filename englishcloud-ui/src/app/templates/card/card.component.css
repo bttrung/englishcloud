@@ -1,0 +1,24 @@
+div.card {
+    width: 95%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    /*width: 100%;*/
+}
+
+.text-result {
+    font-size: 28px !important;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans !important;
+    /*font-weight: bold;*/
+}
+
+a:hover{
+    color: #00b3ff;
+    text-decoration: none;
+
+
+
+}

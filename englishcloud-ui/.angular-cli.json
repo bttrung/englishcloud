@@ -19,9 +19,18 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "css/bootstrap.min.css",
+        "css/w3.css",
+        "css/bootstrap-tagsinput.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "js/jquery.min",
+        "js/bootstrap.js",
+        "js/bootstrap.min.js",
+        "js/typeahead.bundle.js",
+        "js/bootstrap-tagsinput.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

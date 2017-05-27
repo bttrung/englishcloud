@@ -1,0 +1,45 @@
+<!--Two way binding-->
+<h3>Two way binding: {{firstname}}</h3>
+<input [(ngModel)]="firstname">
+<h3 style="color: red">Two: {{firstname}}</h3>
+
+<!--ngIf-->
+<h3 *ngIf="isShow">Abc</h3>
+<h3 [class.letColor]="isColor">XYZ</h3>
+
+<input type="text" class="form-control" #number (keyup)="0">
+<div class="alert alert-danger" *ngIf="number.value != '' && number.value <= 10">
+     <strong>Number is greater than 10</strong>
+</div>
+
+<!--ngFor-->
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let c of courses; let i = index">{{i + "-" + c}}</li>
+</ul>
+
+<!--ngSwitch-->
+<div [ngSwitch]="mySwitch">
+    <p *ngSwitchCase="'a'">I choose A</p>
+    <p *ngSwitchCase="'b'">I choose B</p>
+    <p *ngSwitchCase="'c'">I choose C</p>
+    <p *ngSwitchDefault>I choose D</p>
+</div>
+
+<!--ngClass-->
+<button type="button" class="btn btn-lg btn-info">
+    <span [class.glyphicon-th]="!isList"
+        [class.glyphicon-th-list]="isList"
+        class="glyphicon"></span>button</button>
+    
+<button type="button" class="btn btn-lg btn-info">
+    <span [ngClass]="{'glyphicon-th': !isList, 'glyphicon-th-list': isList}" 
+        class="glyphicon"></span>button</button>
+
+<button type="button" class="btn btn-lg btn-info">
+    <span [ngClass]="setclasses()" 
+        class="glyphicon"></span>button</button>
+        
+<!--ngStyle-->
+<div [ngStyle]="setstyles()">
+  This div is bold and extra large (24px).
+</div>
