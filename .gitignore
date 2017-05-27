@@ -1,0 +1,6 @@
+/common-libs/crawler/target/
+/common-services/redis-webservice/target/
+/common-libs/redis-support/target/
+/common-libs/spring-support/target/
+/redis-webservice/target/
+/englishcloud-backend/target/
